@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label class="col-form-label">Email</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="email" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label class="col-form-label">Şifre</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label class="col-form-label pt-0">Kaç Gün</label>
+                </div>
+                <div class="col-md-10">
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="days" value="Fullpass" checked>
+                    <label class="form-check-label">Fullpass</label>
+                   </div> 
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="days" value="Firstday">
+                    <label class="form-check-label">İlk Gün</label>
+                   </div> 
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="days" value="Secondday">
+                    <label class="form-check-label">İkinci Gün</label>
+                   </div> 
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-10 offset-md-2">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-label">Yemek</label>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary">Kaydol</button>
+        </form>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
